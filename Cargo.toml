@@ -1,0 +1,10 @@
+[package]
+name = "sigmaos_apt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "sigmaos_apt"
+path = "src/lib.rs"
