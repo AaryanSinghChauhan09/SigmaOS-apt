@@ -1,17 +1,40 @@
 # SigmaOS-apt
 
-Missing OS component for SigmaOS.
+SigmaOS component inspired by Arch Linux and Debian architecture.
 
-## Inspiration
+## Overview
 
-This component is inspired by major Linux distributions to provide:
-- Essential OS functionality
-- System management
-- User tools
-- Developer tools
+This component provides essential functionality for the SigmaOS operating system,
+following the modular design principles of Arch Linux and the stability focus of Debian.
 
-## Status
+## Features
 
-- Architecture: Designed
-- Implementation: Basic
-- Testing: Basic
+- Modular architecture
+- Minimal dependencies
+- Well-documented APIs
+- Comprehensive testing
+
+## Building
+
+```bash
+cargo build --release
+```
+
+## Testing
+
+```bash
+cargo test
+```
+
+## License
+
+MIT License - See LICENSE file for details.
+
+## Contributing
+
+See CONTRIBUTING.md for guidelines.
+
+## Links
+
+- Repository: https://github.com/AaryanSinghChauhan09/SigmaOS-apt
+- SigmaOS: https://github.com/AaryanSinghChauhan09
