@@ -1,0 +1,8 @@
+[component]
+name = "SigmaOS-apt"
+version = "0.1.0"
+maturity = "alpha"
+tier = 3
+owner = "SigmaOS Team"
+purpose = "APT-compatible package source management and index resolution"
+dependencies = ["SigmaOS-package-manager"]

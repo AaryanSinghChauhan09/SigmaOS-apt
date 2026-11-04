@@ -1,10 +1,14 @@
 [package]
-name = "sigmaos-package-component"
+name = "sigmaos-apt"
 version = "0.1.0"
 edition = "2021"
 authors = ["SigmaOS Team"]
 license = "MIT OR Apache-2.0"
-description = "SigmaOS package management component with sophisticated implementation"
+description = "SigmaOS apt - APT-compatible package source management and index resolution"
+
+[[bin]]
+name = "sigmaos-apt"
+path = "src/main.rs"
 
 [dependencies]
 anyhow = "1.0"
