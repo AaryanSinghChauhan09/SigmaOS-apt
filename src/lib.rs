@@ -27,3 +27,7 @@ impl Component for AptComponent {
         else { Err(error::ComponentError::Service("apt not running".to_string())) }
     }
 }
+
+pub mod cache;
+pub mod installer;
+pub mod package;
